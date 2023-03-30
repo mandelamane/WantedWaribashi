@@ -1,4 +1,4 @@
-# WantedWaribashi
+# WaribashiWanted
 
 割り箸を取ろうとした人物の写真を撮る
 
