@@ -24,7 +24,7 @@ def start_camera():
 
     print("taking picture")
 
-    playsound("music/camera.mp3")
+    playsound("voice/camera.mp3")
 
     print("shutter")
     (
@@ -61,9 +61,9 @@ while True:
         if not flag:
             print("sound on")
             start_camera()
-            playsound("hiroyuki.mp3")
+            playsound("voice/hiroyuki.mp3")
             make_wanted()
-            send_message(bot, message="WANTED", image="./wanted.png")
+            send_message(bot, message="WANTED", image="img/wanted.png")
             flag = True
         else:
             print("not sound")
